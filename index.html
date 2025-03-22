@@ -45,31 +45,25 @@
   <div class="table">
     <table class="schedule-table">
       <tr>
-        <td><span class="number">3月20日（木）</span><br>物販事業者（専用）</td>
-        <td>オンライン</td>
-        <td>14:00〜17:00</td>
-        <td>10名</td>
-      </tr>
-      <tr>
-        <td><span class="number">3月22日（土）</span><br>主婦・会社員・職人（専用）</td>
+        <td><span class="number">3月22日（土）</span><br>（主婦・会社員などの<br class="pc">スキマ層）</td>
         <td>オンライン</td>
         <td>10:00〜13:00</td>
         <td>10名</td>
       </tr>
       <tr>
-        <td><span class="number">3月25日（火）</span><br>主婦・会社員・職人（専用）</td>
+        <td><span class="number">3月25日（火）</span><br>（主婦・会社員などの<br class="pc">スキマ層）</td>
         <td>オンライン</td>
         <td>13:00〜16:00</td>
         <td>10名</td>
       </tr>
       <tr>
-        <td><span class="number">3月27日（木）</span><br>新規事業・経営者（専用）</td>
+        <td><span class="number">3月27日（木）</span><br>（経営者・新規事業）</td>
         <td>オンライン</td>
         <td>14:00〜17:00</td>
         <td>10名</td>
       </tr>
       <tr>
-        <td><span class="number">3月29日（土）</span><br>物販事業者（専用）</td>
+        <td><span class="number">3月29日（土）</span><br>（物販事業者）</td>
         <td>オンライン</td>
         <td>10:00〜13:00</td>
         <td>10名</td>
@@ -404,31 +398,25 @@
   <div class="table">
     <table class="schedule-table">
       <tr>
-        <td><span class="number">3月20日（木）</span><br>物販事業者（専用）</td>
-        <td>オンライン</td>
-        <td>14:00〜17:00</td>
-        <td>10名</td>
-      </tr>
-      <tr>
-        <td><span class="number">3月22日（土）</span><br>主婦・会社員・職人（専用）</td>
+        <td><span class="number">3月22日（土）</span><br>（主婦・会社員などの<br class="pc">スキマ層）</td>
         <td>オンライン</td>
         <td>10:00〜13:00</td>
         <td>10名</td>
       </tr>
       <tr>
-        <td><span class="number">3月25日（火）</span><br>主婦・会社員・職人（専用）</td>
+        <td><span class="number">3月25日（火）</span><br>（主婦・会社員などの<br class="pc">スキマ層）</td>
         <td>オンライン</td>
         <td>13:00〜16:00</td>
         <td>10名</td>
       </tr>
       <tr>
-        <td><span class="number">3月27日（木）</span><br>新規事業・経営者（専用）</td>
+        <td><span class="number">3月27日（木）</span><br>（経営者・新規事業）</td>
         <td>オンライン</td>
         <td>14:00〜17:00</td>
         <td>10名</td>
       </tr>
       <tr>
-        <td><span class="number">3月29日（土）</span><br>物販事業者（専用）</td>
+        <td><span class="number">3月29日（土）</span><br>（物販事業者）</td>
         <td>オンライン</td>
         <td>10:00〜13:00</td>
         <td>10名</td>
@@ -526,31 +514,25 @@
   <div class="table">
     <table class="schedule-table">
       <tr>
-        <td><span class="number">3月20日（木）</span><br>物販事業者（専用）</td>
-        <td>オンライン</td>
-        <td>14:00〜17:00</td>
-        <td>10名</td>
-      </tr>
-      <tr>
-        <td><span class="number">3月22日（土）</span><br>主婦・会社員・職人（専用）</td>
+        <td><span class="number">3月22日（土）</span><br>（主婦・会社員などの<br class="pc">スキマ層）</td>
         <td>オンライン</td>
         <td>10:00〜13:00</td>
         <td>10名</td>
       </tr>
       <tr>
-        <td><span class="number">3月25日（火）</span><br>主婦・会社員・職人（専用）</td>
+        <td><span class="number">3月25日（火）</span><br>（主婦・会社員などの<br class="pc">スキマ層）</td>
         <td>オンライン</td>
         <td>13:00〜16:00</td>
         <td>10名</td>
       </tr>
       <tr>
-        <td><span class="number">3月27日（木）</span><br>新規事業・経営者（専用）</td>
+        <td><span class="number">3月27日（木）</span><br>（経営者・新規事業）</td>
         <td>オンライン</td>
         <td>14:00〜17:00</td>
         <td>10名</td>
       </tr>
       <tr>
-        <td><span class="number">3月29日（土）</span><br>物販事業者（専用）</td>
+        <td><span class="number">3月29日（土）</span><br>（物販事業者）</td>
         <td>オンライン</td>
         <td>10:00〜13:00</td>
         <td>10名</td>
@@ -746,10 +728,24 @@
     </li>
   </ul>
   <p class="p-footer__copyright">
-    <span>Copyright © test .All Rights Reserved.</span>
+    <span>Copyright © thecode .All Rights Reserved.</span>
   </p>
 </footer>
 <div class="back-to-top"><a href="#masthead">このページの先頭へ</a></div>
+<script>
+  const urlParams = new URLSearchParams(window.location.search);
+  const code = urlParams.get('code');
+
+  if (code) {
+    const ctaLinks = document.querySelectorAll('a.cta01__btn--01');
+    ctaLinks.forEach(link => {
+      const url = new URL(link.href);
+      url.searchParams.set('code', code);
+      link.href = url.toString();
+    });
+  }
+</script>
+
 </body>
 
 </html>
